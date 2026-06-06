@@ -1,0 +1,43 @@
+//Accept number from user and display count of its digits without % (mod) operator
+
+import java.util.*;
+
+class DigitX
+{
+    public int CountDigits(int iNo)
+    {
+        int iCount = 0;
+
+        while(iNo != 0)
+        {
+            iCount++;
+
+            iNo = iNo / 10;    
+        }
+
+        return iCount;
+    }
+}
+
+class program84
+{
+    public static void main(String A[])
+    {
+        Scanner sobj = new Scanner(System.in);
+        DigitX dobj = new DigitX();
+
+        int iValue = 0;
+        int iRet = 0;
+
+        System.out.println("Enter number: ");
+        iValue = sobj.nextInt();
+
+        iRet = dobj.CountDigits(iValue);
+
+        System.out.println("\nNumber of digits: "+iRet);
+    }
+}
+/*
+input: 751
+output: Number of digits: 3
+*/
