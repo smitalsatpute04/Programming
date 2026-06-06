@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-// Description: Write program which accept N number from user and display all such elements which contains 3 digits in it.
+// Description: Write program which accept N number from user and display sum of digits of each element.
 // Author: Smital Bajarang Satpute
 // Date: 06/06/2026
 //
